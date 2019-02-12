@@ -16,7 +16,7 @@
 
 	<properties>
 		<java.version>1.8</java.version>
-		<start-class>com.bp.reactive.controller.SpringBootReactApplication</start-class>
+		<start-class>com.bp.reactive.controller.SpringBootReactiveApplication</start-class>
 	</properties>
 
 	<dependencies>
@@ -49,7 +49,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
-					<mainClass>com.bp.reactive.controller.SpringBootReactApplication</mainClass>
+					<mainClass>com.bp.reactive.controller.SpringBootReactiveApplication</mainClass>
 				</configuration>
 			</plugin>
 		</plugins>
